@@ -50,5 +50,4 @@ email_receiver = str(input('SEND TO: '))
 
 email_address = 'lmorningstarthedevil@gmail.com'
 email_password = decode_mailpassword('dwgod','wrTDmMOaw6LCpMKVwqnCmg==')
-
 send_email(email_address, email_receiver, email_password, email_content)
